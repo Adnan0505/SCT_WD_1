@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Chai & Coffee House</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav id="navbar">
+    <div class="logo">☕ Chai and Coffee</div>
+    <div class="menu-toggle" onclick="toggleMenu()">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+    <div class="nav-links" id="navLinks">
+      <a href="#">Home</a>
+      <a href="#about">About</a>
+      <a href="#menu">Menu</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div>
+      <h1>Chai and Coffee</h1>
+      <p>Find your comfort in a cup of perfectly brewed chai...</p>
+      <p>Taste the tradition and savor the bliss</p>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about" id="about">
+    <h2>About Us</h2>
+    <p>
+      At Chai and Coffee, we craft every cup with care.
+    </p>
+    <p>Our cozy space is perfect for conversations, creativity, and comfort.</p>
+  </section>
+
+  <!-- Menu Section -->
+  <section class="menu" id="menu">
+    <h2>Our Menu</h2>
+    <div class="menu-items">
+      <div class="menu-card">
+        <h3>Masala Chai</h3>
+        <p>Spiced Indian tea brewed with milk and herbs.</p>
+        <span>₹50</span>
+      </div>
+      <div class="menu-card">
+        <h3>Ginger Chai</h3>
+        <p>Refreshing tea with the zing of fresh ginger.</p>
+        <span>₹45</span>
+      </div>
+      <div class="menu-card">
+        <h3>Cappuccino</h3>
+        <p>Classic Italian coffee with steamed milk foam.</p>
+        <span>₹90</span>
+      </div>
+      <div class="menu-card">
+        <h3>Filter Coffee</h3>
+        <p>South Indian style strong aromatic coffee.</p>
+        <span>₹60</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact" id="contact">
+    <h2>Contact Us</h2>
+    <form class="contact-form">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    &copy; 2025 Chai & Coffee. All rights reserved.
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
